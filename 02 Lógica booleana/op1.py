@@ -1,3 +1,5 @@
+# Ejercicio: usa lógica compleja para determinar 
+# posibles maniobras evasivas
 object_size = int(input('Ingresa el tamaño (m3) del objeto: '))
 proximity = int(input('Ingresa la proximidad (km): '))
 
