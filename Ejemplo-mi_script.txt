@@ -1,0 +1,9 @@
+Ejecución:
+
+1. Ejecutando mi_script.py directamente:
+
+$ python mi_script.py
+
+2. Importando mi_script en otro_script.py:
+
+$ python otro_script.py

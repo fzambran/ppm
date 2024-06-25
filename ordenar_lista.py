@@ -1,3 +1,11 @@
+def main():
+    lista = [11, 13, 5, 12, 8]
+
+    print('Lista original: ', lista)
+    print('\n')
+    insertion_sort(lista)
+    print('Lista ordenada: ', lista)    
+
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -7,6 +15,4 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
         
-lista = [11, 13, 5, 12, 8]
-insertion_sort(lista)
-print('Lista ordenada:', lista)
+main()
